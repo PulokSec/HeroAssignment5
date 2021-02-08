@@ -40,7 +40,6 @@ nav ul li a:hover{
 .foodDetails{
   align-content: center;
   display: grid;
-  grid-template-columns: repeat(1.1fr);
   padding-bottom: 20px;
 }
 .foodDiv{
@@ -108,4 +107,26 @@ h2{
 .icon{
   font-family: Arial, 'FontAwesome';
   color: red;
+}
+@media(max-width:992px){
+    #foods{
+      grid-template-columns: repeat(3,1fr);
+    }
+    .errorDiv{
+      width: 50%;
+    }
+    .foodInfoDiv{
+      width: 50%;
+  }  
+}
+@media(max-width:668px){
+  .foodInfoDiv{
+        width: 50%;
+    }
+    .errorDiv{
+      width: 50%;
+    }
+    #foods{
+      grid-template-columns: repeat(2,1fr);
+    }
 }
