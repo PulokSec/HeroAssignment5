@@ -14,36 +14,18 @@ body{
   background-size: cover;
 }
 .background{
-  background:url(/bgFood.jpg);
+  background:url(images/bg.png);
+}
+.logo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: blue;
 }
 nav ul li a:hover{
   text-decoration: none;
   background-color: goldenrod;
   color: #F8F7F5;
   border-radius: 5px;
-}
-nav{
-  height: 50px;
-  width: 100%;
-  padding: 20px 0;
-}
-nav img{
-  position: absolute;
-}
-.container{
-  width: 1200px;
-  max-width: 85%;
-  margin: 0 auto;
-}
-nav ul{
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px 6px;
-}
-nav ul li a{
-  color: #383838;
-  padding: 10px;
-  text-transform: uppercase;
 }
 #foods{
   display: grid;
@@ -68,7 +50,6 @@ nav ul li a{
 }
 .foodDiv{
   border: 1px solid goldenrod;
-  background-color: #F8F7F5;
   margin-left: 40px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px gray;
@@ -79,11 +60,13 @@ nav ul li a{
 .foodName{
   font-size: 20px;
   color: black;
+  text-shadow: 2px 2px #F8F7F5;
   padding-bottom: 20px;
 }
 .foodText{
   font-size: 40px;
   color: black;
+  text-shadow: 2px 2px #F8F7F5;
   padding-bottom: 20px;
 }
 h4{
@@ -107,11 +90,11 @@ h4{
   display: none;
 }
 #errorMessage{
-  background-color:goldenrod;
   display: none;
 }
 h2{
-  color:#F8F7F5;
+  color:goldenrod;
+  text-shadow: 2px 2px black;
 }
 .errorDiv{
   border: 1px solid #F8F7F5;
