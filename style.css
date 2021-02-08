@@ -16,11 +16,6 @@ body{
 .background{
   background:url(images/bg.png);
 }
-.logo{
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  color: blue;
-}
 nav ul li a:hover{
   text-decoration: none;
   background-color: goldenrod;
